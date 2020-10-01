@@ -2,7 +2,7 @@
 int main()
 {
     int n,i,min;
-    scanf("%d",&  n);
+    scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++)
     {
@@ -16,6 +16,6 @@ int main()
 	    min=a[i];
 	}
     }
-    printf("%d",min);
+    printf("\n%d",min);
     return 0;
 }
