@@ -1,4 +1,4 @@
-//finding factorial of given number
+//Calculating factorial of given number in c language
 #include<stdio.h>
 int main()
 {
