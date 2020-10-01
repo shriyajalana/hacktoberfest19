@@ -1,4 +1,4 @@
-//finding factorial of given number
+//calculating factorial of any number
 #include<iostream>
 using namespace std;
 int main()
