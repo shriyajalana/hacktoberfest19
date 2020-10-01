@@ -4,9 +4,10 @@ int main()
 {
 	int n,i,p=1;
 	scanf("%d",&n);
+	prinf("Enter a Number ");
 	for(i=1;i<=n;i++)
 	{
 		p=p*i;
 	}
-	printf("%d",p);
+	printf("factorial is %d",p);
 }
