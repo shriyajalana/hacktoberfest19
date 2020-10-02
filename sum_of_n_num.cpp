@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int n,i,sum=0;
+	int n,i,sum=0;		// declare variables
 	
 	scanf("%d",&n);		// enter size of array
 	int a[n];
