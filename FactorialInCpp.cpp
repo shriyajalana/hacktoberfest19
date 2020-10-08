@@ -1,13 +1,21 @@
-//calculating factorial of any number
+//calculating factorial of a number
+
 #include<iostream>
-#include<conio.h>
+using namespace std;
 int main()
 {
-	int n,i,fact=1;
-	scanf("%d",&n);			// enter a number
+	int fact=1,n,i;
+	cout<<"Enter a Number"<<endl;      // enter a number
+	cin>>n;
 	for(i=1;i<=n;i++)
 	{
 		fact=fact*i;
 	}
-	printf("%d",fact);		// factorial of a given number
+	cout<<"Factorial of "<<n<<" is: "<<fact;        // factorial of a given number
+	return 0;
 }
+/* 
+Note: we cannot calculate large number factorial
+Eg.58,99.
+these number's factorial are very big number so we can't store it in a variable.Finding those number factorial of the diffrent approch:)
+*/
